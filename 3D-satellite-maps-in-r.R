@@ -1,5 +1,5 @@
 #  
-# Visualise The Cullin, Isle of Skye, Scotland
+# Visualise The Cuillin, Isle of Skye, Scotland
 # This code follows Tyle Morgan-Wall's tutorial on the subject
 # I expanded on his tutorial to include instructions for people new to R and R Studio on Mac/Windows.
 # See his tutorial at: https://www.tylermw.com/a-step-by-step-guide-to-making-3d-maps-with-satellite-imagery-in-r
