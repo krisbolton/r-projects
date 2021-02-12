@@ -1,6 +1,6 @@
 # R Projects
 
-A collection of R projects mostly revolving around data visualization and GIS 3D mapping.
+A collection of R projects mostly data visualization and GIS 3D mapping.
 
 ## List
 
