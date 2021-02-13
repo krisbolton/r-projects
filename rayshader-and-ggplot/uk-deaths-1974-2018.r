@@ -12,12 +12,3 @@ deathgg = ggplot(meltdeaths) +
   labs(caption = "Data Source: Office of National Statistics (ONS)")
 
 plot_gg(deathgg, multicore=TRUE,height=5,width=6,scale=500)
-
-angles= seq(0,360,length.out = 1441)[-1]
-for(i in 1:1440) {
-  render_camera(theta=-45+angles[i])
-  render_snapshot(filename = sprintf("C:\\Users\\Kris\\Documents\\Death\\death%i.png", i))
-}
-
-rgl::rgl.close()
-system("ffmpeg -framerate 60 -i C:\\Users\\Kris\\Documents\\Death\\death%d.png -pix_fmt yuv420p C:\\Users\\Kris\\Documents\\death.mp4")
